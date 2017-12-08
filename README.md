@@ -12,7 +12,7 @@ Copyright (c) 2017, Tatsuro Yamada <<yamadat@idr.ias.sci.waseda.ac.jp>>
 - NumPy 1.11
 
 ## Implementation
-**Recurrent Neural Network with LSTM cells**
+Recurrent Neural Network with LSTM cells
 
 ## Example
 **Flag game**
@@ -20,9 +20,9 @@ Copyright (c) 2017, Tatsuro Yamada <<yamadat@idr.ias.sci.waseda.ac.jp>>
     * You can download the data from http://ogata-lab.jp/projects/cognitive-robotics-group.html
 - Data format
     * The flag game is represented as a sequence of 14 dim. vectors.
-    * columns 0-8 represent a word (1-hot encoding).
-    * columns 9-11 represent visual information (RGB).
-    * columns 12,13 represent the robot's left and right arm, respectively.
+      * columns 0-8 represent a word (1-hot encoding).
+      * columns 9-11 represent visual information (RGB).
+      * columns 12,13 represent the robot's left and right arm, respectively.
 - Preparation
     * Putting training sequences in target/train/
     * Putting test sequences in target/test/
